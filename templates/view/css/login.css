@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'BLKCHCRY';
+    src: url('../fonts/BLKCHCRY.eot');
+    src: url('../fonts/BLKCHCRY.eot') format('embedded-opentype'),
+    url('../fonts/BLKCHCRY.TTF') format('truetype'),
+    url('../fonts/BLKCHCRY.svg#font') format('svg');
+}
+a{text-decoration:none;}
+a:hover{text-decoration:none;}
+.error{color:red}
+.container{
+    border-radius:7%;
+    background:rgb(240,240,240);
+    padding-top:2%;
+    padding-bottom:2%;
+    text-align:center;
+    width:40%;
+    margin:0px auto;
+    box-shadow:2px 2px 5px black;
+    margin-top:10%;
+}
+.container span:first-child{
+    float:left;
+    padding:1% 2% 1% 2%;
+    margin-right:-12%;
+    margin-left:2%;
+    background:black;
+    color:white;
+    border-radius:50% 5% 5% 50%;
+}
+.container span:first-child:hover{
+    opacity:0.8;
+}
+.container span:nth-child(2){
+    font-family:'BLKCHCRY';
+    font-size:40px;
+    color:black;
+}
+.container p{color:black;}
+button[type="submit"]{
+    background:black;
+    color:white;
+    border:none;
+    padding-top:2%;
+    padding-bottom:2%;
+    padding-left:25%;
+    padding-right:25%;
+    cursor:pointer;
+}
+button[type="submit"]:hover{
+    opacity:0.8;
+}
+textarea:required{box-shadow:none;}
+input:required {  box-shadow:none;}
+input:required:invalid {outline: none;}
+textarea:required:invalid { outline: none; }
+/* Full-width input fields */
+input[type=email],input[type=password],input[type=text]{
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-bottom:2px solid rgba(0,0,0,0.5);
+    border-top:none;
+    border-left:none;
+    box-sizing: border-box;
+    width:70%;
+}
+

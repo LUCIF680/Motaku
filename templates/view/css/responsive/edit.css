@@ -1,0 +1,22 @@
+/*for manageing the menu bar of mobile device*/
+@media only screen and (max-width: 957px){
+    #edit{margin:12px 7px 0 0; color:black;font-size: 70%;}
+    .menubarSearch {
+        float:right;
+        color:white;
+        border-radius: 4px;
+        font-size: 16px;
+        padding:5px;
+        background: #031622;opacity: 0.7;box-shadow: 0 0 2px black;	font-family:'Helvetica';
+        margin:10px;
+        width:70%;
+    }
+    .sidebarIcon{margin: 10px 10px 10px 15px;font-size: 90%;}
+    input[type=submit]{width:30%;}
+    .textarea{box-shadow: 0 0 5px#8085bf;}
+}
+@media only screen and (max-width: 350px){
+    .menubarSearch { width:50%;}
+    .modal-content{width: 92%;}
+}
+

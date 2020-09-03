@@ -1,0 +1,62 @@
+@media only screen and (max-width: 700px) {
+    /* for search bar and image*/
+    #slider{background-image: url(https://lucif680.github.io/images/masterotaku/welcome_phone.jpg); }
+    #catchphrase{font-size: 200%}
+    #search_bar{
+        padding:4%;
+        border-radius: 3%;
+        border: 3px solid whitesmoke;
+        width: 100%;
+        margin-right: 5%;
+    }
+    .square_btn{
+        position: relative;
+        font-weight: bold;
+        padding: 0.2em 0.7em;
+        text-decoration: none;
+        border-left: solid 4px #668ad8;
+        border-right: solid 4px #668ad8;
+        color: rgb(32, 3, 3);
+        background: #c9dfec;
+        transition: .4s;
+        margin-top:2%;
+        float:right;
+        cursor: pointer;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .centered {	width:40%; }
+    .square_btn{ padding: 0.1em 0.8em;}
+}
+
+@media only screen and (max-width: 600px){
+    .centered {	width:50%; }
+    .square_btn{ padding: 0.1em 0.5em;}
+}
+
+@media only screen and (max-width: 500px){
+    .centered {	width:60%;  }
+    .square_btn{ padding: 0.1em 0.3em;}
+}
+/*for manageing the menu bar of mobile device*/
+@media only screen and (max-width: 957px){
+    #edit{margin:12px 7px 0px 0px; color:black;font-size: 70%;}
+    .menubarSearch {
+        float:right;
+        color:white;
+        border-radius: 4px;
+        font-size: 16px;
+        padding:5px;
+        background: #031622;opacity: 0.7;box-shadow: 0px 0px 2px black;	font-family:'Helvetica';
+        margin:10px;
+        width:70%;
+}
+    .sidebarIcon{
+        margin: 10px 10px 10px 15px;
+        font-size: 90%;
+    }
+}
+@media only screen and (max-width: 350px){
+    .menubarSearch { width:50%;}
+}

@@ -1,0 +1,11 @@
+@media only screen and (max-width:1000px){
+    .container{ width: 60% }
+}
+@media only screen and (max-width:557px){
+    .container{ width: 100%;margin-top:20%;border-radius: 0px;}
+    button[type="submit"]{width: 95%;font-size: 18px;margin-top:2%;}
+    .container span:nth-child(2){font-size: 32px;}
+    .container span:first-child{font-size: 12px;}
+    input[type=email],input[type=password],input[type=text]{
+        width:95%;padding: 15px;font-size: 15px;margin-top:3%;    }
+}
