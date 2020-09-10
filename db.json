@@ -1,12 +1,22 @@
 {
   "users": [
     {
+      "id" : 1
       "name": "Hek",
-      "username": "hello_64"
+      "username": "hello_64",
+      "blog" : "this is blog"
     },
     {
+      "id" :2
       "name": "Beck",
-      "username": "beck_45"
+      "username": "beck_45",
+      "blog" : "this is blog"
+    },
+    {
+      "id" :3
+      "name": "Becky",
+      "username": "becky_45",
+      "blog" : "this is blog"
     }
   ]
 }
