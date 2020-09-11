@@ -6,12 +6,6 @@
       "username": "hello_64",
       "blog" : "this is blog1"
     },
-     {
-      "id" : 4,
-      "name": "Heky",
-      "username": "hello_645",
-      "blog" : "this is blog5"
-    },
     {
       "id" :2,
       "name": "Beck",
@@ -23,6 +17,12 @@
       "name": "Becky",
       "username": "becky_45",
       "blog" : "this is blog3"
+    },
+    {
+      "id" : 4,
+      "name": "Heky",
+      "username": "hello_645",
+      "blog" : "this is blog5"
     }
   ]
 }
